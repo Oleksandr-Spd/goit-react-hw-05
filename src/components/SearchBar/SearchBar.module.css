@@ -1,0 +1,28 @@
+.searchForm {
+  border-radius: 30px;
+  display: flex;
+  margin-top: 86px;
+  margin-bottom: 20px;
+}
+
+.searchInput {
+  padding-left: 8px;
+  padding-right: 8px;
+  background-color: transparent;
+  flex-grow: 1;
+  border: none;
+  border-radius: 30px;
+  border: 1px solid var(--primary-dark-color);
+}
+
+.searchInput::placeholder {
+  color: var(--primary-dark-color);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.searchBtn {
+  width: 100px;
+}

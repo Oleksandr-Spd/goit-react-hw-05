@@ -1,0 +1,27 @@
+.detailsPageContainer {
+  margin-top: 90px;
+  text-align: start;
+}
+
+.filmBox {
+  display: flex;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.backLink {
+  font-family: inherit;
+  color: var(--primary-light-color);
+  padding: 5px 8px;
+  height: 42px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  border: 1px solid var(--primary-light-color);
+  background-color: #242424;
+  text-align: start;
+  top: 32px;
+  z-index: 11;
+  position: fixed;
+}

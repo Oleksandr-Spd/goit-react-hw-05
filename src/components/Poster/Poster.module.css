@@ -1,0 +1,4 @@
+.posterBox {
+  background-color: var(--primary-dark-color);
+  object-fit: contain;
+}
