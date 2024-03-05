@@ -25,9 +25,6 @@ export const Navigation = () => {
               Movies <FontAwesomeIcon icon={faPlayCircle} />
             </NavLink>
           </li>
-          <li>
-            <NavLink to="/movies/:movieId" className={buildLinkClass}></NavLink>
-          </li>
         </ul>
       </nav>
     </header>
